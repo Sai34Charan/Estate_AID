@@ -1,0 +1,31 @@
+/* Blogs grid */
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.blog-card {
+  display: block;
+  background: linear-gradient(145deg, var(--card-bg), var(--card-hover));
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-xl); }
+
+.blog-card img { width: 100%; height: 180px; object-fit: cover; }
+
+.blog-content { padding: var(--spacing-lg); }
+
+.blog-content h3 { margin: 0 0 var(--spacing-sm); font-size: var(--font-size-xl); }
+
+.source { color: var(--text-muted); margin-bottom: var(--spacing-md); }
+
+.read-more { color: var(--primary-color); font-weight: 600; }
+
+

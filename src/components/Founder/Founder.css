@@ -1,0 +1,14 @@
+/* Founder section */
+.founder-wrap { display: flex; gap: var(--spacing-2xl); align-items: center; }
+.founder-photo { width: 220px; height: 220px; border-radius: 50%; object-fit: cover; border: 5px solid var(--primary-color); }
+.founder-bio h3 { margin: 0 0 var(--spacing-sm); font-size: var(--font-size-2xl); }
+.founder-bio p { margin: 0 0 var(--spacing-lg); }
+.social-links { display: flex; gap: var(--spacing-lg); flex-wrap: wrap; }
+.social-links a { color: var(--text-color); text-decoration: none; font-weight: 600; }
+.social-links a:hover { color: var(--primary-color); }
+
+@media (max-width: 768px) {
+  .founder-wrap { flex-direction: column; text-align: center; }
+}
+
+

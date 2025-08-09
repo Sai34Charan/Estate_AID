@@ -1,0 +1,14 @@
+/* Footer */
+.footer { background: var(--card-bg); border-top: 1px solid var(--border-color); padding: var(--spacing-2xl) 0; }
+.footer-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--spacing-xl); }
+.footer h4 { margin: 0 0 var(--spacing-sm); font-size: var(--font-size-2xl); }
+.footer h5 { margin: 0 0 var(--spacing-sm); font-size: var(--font-size-lg); }
+.footer p { margin: 0; }
+.footer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--spacing-xs); }
+.footer a { color: var(--text-color); text-decoration: none; }
+.footer a:hover { color: var(--primary-color); }
+.footer-bottom { text-align: center; padding-top: var(--spacing-lg); color: var(--text-muted); border-top: 1px solid var(--border-color); margin-top: var(--spacing-xl); }
+
+@media (max-width: 768px) { .footer-grid { grid-template-columns: 1fr; } }
+
+
