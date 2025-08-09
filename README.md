@@ -2,7 +2,7 @@
 
 A modern, AI-powered real estate investment platform built with React and enhanced CSS animations.
 
-![logo-png](estate-aid/src/assets/logo-png.png)
+![logo-png](src/assets/logo-png.png)
 
 
 ## 🚀 Features
